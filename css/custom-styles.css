@@ -5,3 +5,7 @@
 .dropdown:focus{
     display: blocK;
 }
+
+.text-justify{
+    text-align: justify;
+}
