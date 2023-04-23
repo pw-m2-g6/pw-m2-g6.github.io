@@ -13,7 +13,7 @@ section:nth-child(even){
 
 .icon{
     color: #ffffff;
-    padding: 0 10px;
+    padding: 2px 10px;
     transition: 0.15s;
 }
 
