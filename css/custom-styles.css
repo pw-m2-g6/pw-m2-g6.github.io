@@ -32,3 +32,7 @@ section:nth-child(even){
 .text-justify{
     text-align: justify;
 }
+
+#about img{
+    border-radius: 50%;
+}

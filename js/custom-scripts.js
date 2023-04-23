@@ -15,3 +15,4 @@ function toggle_light_mode(){
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     toggle_light_mode();
 }
+
