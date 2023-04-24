@@ -13,9 +13,6 @@ function toggle_light_mode(){
 }
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    transition_duration = document.getElementById("page-top").style.transitionDuration;
-    transition_duration = '0';
     toggle_light_mode();
-    transition_duration = '0.8';
 }
 
