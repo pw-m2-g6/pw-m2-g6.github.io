@@ -13,6 +13,9 @@ function toggle_light_mode(){
 }
 
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    animation_duration = document.getElementById("page-top").style.animationDuration;
+    animation_duration = '0';
     toggle_light_mode();
+    animation_duration = '0.8';
 }
 
