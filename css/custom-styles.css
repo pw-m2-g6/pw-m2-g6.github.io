@@ -36,3 +36,14 @@ section:nth-child(even){
 #about img{
     border-radius: 50%;
 }
+
+#testimonials img{
+    height: 70px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.costumer-testimonial{
+    background: rgba(164, 164, 164, 0.1);
+    padding: 20px;
+}
