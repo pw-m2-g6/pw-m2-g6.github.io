@@ -12,7 +12,14 @@ function toggle_light_mode(){
     }
 }
 
+
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    let temp = document.body.style.transitionDuration;
+    document.body.style.transitionDuration = '0s';
     toggle_light_mode();
+
+    setTimeout(function() {
+        document.body.style.transitionDuration = temp;
+    }, 10);
 }
 
