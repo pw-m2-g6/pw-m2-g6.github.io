@@ -1,58 +1,149 @@
-body{
-    transition-duration: 0.8s;
+body {
+  transition-duration: 0.8s;
 }
 
-.dark-mode{
-    background-color: #2c3034;
-    color: #f1f1f1;
+.dark-mode {
+  background-color: #2c3034;
+  color: #f1f1f1;
 }
 
-section:nth-child(even){
-    background-color: rgba(105, 105, 105, 0.05);
+section:nth-child(even) {
+  background-color: rgba(105, 105, 105, 0.05);
 }
 
-.icon{
-    color: #ffffff;
-    padding: 2px 10px;
-    transition: 0.15s;
+.icon {
+  color: #ffffff;
+  padding: 2px 10px;
+  transition: 0.15s;
 }
 
-.icon:hover{
-    color: #ffc800;
+.icon:hover {
+  color: #ffc800;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+  display: block;
 }
 
-.dropdown:focus{
-    display: blocK;
+.dropdown:focus {
+  display: blocK;
 }
 
-.text-justify{
-    text-align: justify;
+.text-justify {
+  text-align: justify;
 }
 
-#about img{
-    border-radius: 50%;
+#about img {
+  border-radius: 50%;
 }
 
-#testimonials img{
-    height: 70px;
-    width: auto;
-    margin-bottom: 10px;
+#testimonials img {
+  height: 70px;
+  width: auto;
+  margin-bottom: 10px;
 }
 
-.costumer-testimonial{
-    background: rgba(164, 164, 164, 0.1);
-    padding: 20px;
+.costumer-testimonial {
+  background: rgba(164, 164, 164, 0.1);
+  padding: 20px;
 }
 
-.location-map{
-    width: 100%;
-    height: 350px;
+.location-map {
+  width: 100%;
+  height: 350px;
 }
 
-.navbar-spacer{
-    height: 3rem;
+.navbar-spacer {
+  height: 3rem;
+}
+
+.card {
+  width: 550px;
+  background-color: #212529;
+  border: none;
+  border-radius: 12px;
+}
+
+label.radio {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+label.radio input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+label.radio span {
+  padding: 7px 14px;
+  border: 2px solid #eee;
+  display: inline-block;
+  color: #e5bc03;
+  border-radius: 10px;
+  width: 100%;
+  height: 48px;
+  line-height: 27px;
+}
+
+label.radio input:checked + span {
+  border-color: #f6d25b;
+  background-color: #faf281;
+  color: #000000;
+  border-radius: 9px;
+  height: 48px;
+  line-height: 27px;
+}
+
+label.radio:hover {
+  color: #fff;
+  background-color: #363636;
+  border-radius: 10px;
+}
+
+
+.form-control {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #039be5;
+}
+
+.agree-text {
+  font-size: 14px;
+}
+
+.terms {
+  font-size: 14px;
+  text-decoration: none;
+  color: #03b0e5;
+}
+
+.confirm-button {
+  height: 50px;
+  border-radius: 10px;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 48px;
+  line-height: 20px;
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 12px 10px;
 }
