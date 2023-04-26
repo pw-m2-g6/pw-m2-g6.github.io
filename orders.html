@@ -90,11 +90,12 @@
                                 <div class="col-sm-12">
                                     <div class="form-group">
                                         <input class="form-control" id="phone" type="number" placeholder="Nº Telemóvel">
-
                                         <script>
                                             var input = document.querySelector("#phone");
                                             window.intlTelInput(input, {
                                                 separateDialCode: true,
+                                                preferredCountries: ["pt", "gb", "es", "fr"],
+                                                initialCountry:"pt",
                                             });
                                         </script>
                                     </div>
