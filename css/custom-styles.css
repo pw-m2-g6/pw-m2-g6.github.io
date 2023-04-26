@@ -186,3 +186,32 @@ label.radio:hover {
 .contact .info .open-hours, .contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
+
+.gallerygrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+}
+
+.imagebox {
+  background-color: rgba(255,0,0,0.2);
+  aspect-ratio: 1;
+}
+
+.image {
+  width: 0px;
+  height: 0px;
+  min-height: 100%;
+  min-width: 100%;
+  display: block;
+  object-fit: fill;
+}
+
+.sector {
+  
+  width: 950px;
+  border: 10px solid rgb(202, 186, 4);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
