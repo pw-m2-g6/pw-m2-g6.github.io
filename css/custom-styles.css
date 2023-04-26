@@ -13,8 +13,7 @@ section:nth-child(even) {
 
 .icon {
   color: #ffffff;
-  padding: 2px 0px;
-  transition: 0.15s;
+  padding: 8px 0;
 }
 
 .icon:hover {
