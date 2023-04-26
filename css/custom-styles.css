@@ -161,7 +161,6 @@ label.radio:hover {
 }
 
 .contact .info i {
-  font-size: 20px;
   float: left;
   width: 44px;
   height: 44px;
@@ -175,15 +174,12 @@ label.radio:hover {
 
 .contact .info h4 {
   padding: 0 0 0 60px;
-  font-size: 18px;
-  font-weight: 500;
   margin-bottom: 5px;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
   color: #a9997b;
 }
 
