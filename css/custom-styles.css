@@ -161,15 +161,6 @@ label.radio:hover {
 }
 
 .contact .info i {
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #cda45e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
 }
 
 .contact .info h4 {
