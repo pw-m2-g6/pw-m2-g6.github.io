@@ -147,6 +147,15 @@ label.radio:hover {
   padding: 12px 10px;
 }
 
+#phone {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  max-width: 178%;
+  flex:auto;
+}
+
 .contact .info {
   width: 100%;
 }
@@ -176,7 +185,7 @@ label.radio:hover {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #bab3a6;
+  color: #a9997b;
 }
 
 .contact .info .open-hours, .contact .info .email, .contact .info .phone {
