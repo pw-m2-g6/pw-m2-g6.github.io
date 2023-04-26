@@ -59,7 +59,7 @@ section:nth-child(even) {
 
 .card {
   width: 550px;
-  background-color: #212529;
+  background-color: rgba(164, 164, 164, 0.1);
   border: none;
   border-radius: 12px;
 }
@@ -100,7 +100,7 @@ label.radio input:checked + span {
 
 label.radio:hover {
   color: #fff;
-  background-color: #363636;
+  background-color: rgba(164, 164, 164, 0.1);
   border-radius: 10px;
 }
 
