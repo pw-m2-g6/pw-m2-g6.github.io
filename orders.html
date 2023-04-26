@@ -16,6 +16,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="css/custom-styles.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+        <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
     </head>
     <body id="page-top" class="light-mode">
@@ -49,6 +51,7 @@
         <div class="navbar-spacer"></div>
         <!-- Orders-->
         <section class="page-section" id="orders">
+        <form action="https://www.google.com">  
             <div class="container">
                 <div class="text">
                     <h2 class="section-heading text-uppercase">Encomendas</h2>
@@ -78,7 +81,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <div class="form-group">
+                                    <div class="form-group" style="padding-bottom: 10px">
                                         <input class="form-control" type="text" placeholder="Email">
                                     </div>
                                 </div>
@@ -86,14 +89,21 @@
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <input class="form-control" type="text" placeholder="Nº Telemóvel">
+                                        <input class="form-control" id="phone" type="number" placeholder="Nº Telemóvel">
+
+                                        <script>
+                                            var input = document.querySelector("#phone");
+                                            window.intlTelInput(input, {
+                                                separateDialCode: true,
+                                            });
+                                        </script>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <textarea class="textarea resize-ta" type="text" placeholder="Descrição da Encomenda"></textarea>
+                                        <textarea class="textarea resize-ta" style="resize:vertical" type="text" placeholder="Descrição da Encomenda"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -109,6 +119,8 @@
                         </div>
                     </div>
                 </div>
+        </form>
+
 
         </section>
         <!-- Footer-->

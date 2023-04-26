@@ -23,15 +23,14 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     }, 10);
 }
 
-// Dealing with Textarea Height
-function calcHeight(value) {
-    let numberOfLineBreaks = (value.match(/\n/g) || []).length;
-    // min-height + lines x line-height + padding + border
-    let newHeight = 20 + numberOfLineBreaks * 20 + 12 + 2;
-    return newHeight;
-  }
-  
-  let textarea = document.querySelector(".resize-ta");
-  textarea.addEventListener("keyup", () => {
-    textarea.style.height = calcHeight(textarea.value) + "px";
-  });
+// Auto-resize da input textbox de texto
+const tx = document.getElementsByTagName("textarea");
+for (let i = 0; i < tx.length; i++) {
+  tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
+  tx[i].addEventListener("input", OnInput, false);
+}
+
+function OnInput() {
+  this.style.height = 0;
+  this.style.height = (this.scrollHeight) + "px";
+}

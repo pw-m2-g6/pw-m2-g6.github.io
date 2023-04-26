@@ -104,7 +104,6 @@ label.radio:hover {
   border-radius: 10px;
 }
 
-
 .form-control {
   margin-top: 10px;
   height: 48px;
@@ -146,4 +145,13 @@ label.radio:hover {
   min-width: 100%;
   max-width: 100%;
   padding: 12px 10px;
+}
+
+#phone {
+  margin-top: 10px;
+  height: 48px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  max-width: 178%;
+  flex:auto
 }
