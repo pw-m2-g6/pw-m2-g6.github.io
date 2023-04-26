@@ -104,7 +104,6 @@ label.radio:hover {
   border-radius: 10px;
 }
 
-
 .form-control {
   margin-top: 10px;
   height: 48px;
@@ -146,41 +145,4 @@ label.radio:hover {
   min-width: 100%;
   max-width: 100%;
   padding: 12px 10px;
-}
-
-
-.contact .info {
-  width: 100%;
-}
-
-.contact .info i {
-  font-size: 20px;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #cda45e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 5px;
-  font-family: "Poppins", sans-serif;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #bab3a6;
-}
-
-.contact .info .open-hours, .contact .info .email, .contact .info .phone {
-  margin-top: 40px;
 }
