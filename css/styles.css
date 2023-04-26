@@ -11036,13 +11036,13 @@ header.masthead .masthead-heading {
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
-  padding-top: 5rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 4rem;
 }
 .portfolio-modal .modal-content p.item-intro {
   font-style: italic;
@@ -11057,6 +11057,7 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
+  height: 60%;
 }
 .portfolio-modal .close-modal {
   position: absolute;

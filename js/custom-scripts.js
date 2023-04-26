@@ -3,10 +3,24 @@ function toggle_light_mode(){
 
     if(color_scheme.classList.contains("fa-sun")){
         document.body.className = "dark-mode";
+
+        const elements = document.querySelectorAll('.light-mode');
+        elements.forEach(element => {
+            element.classList.remove('light-mode');
+            element.classList.add('dark-mode');
+        });
+
         color_scheme.classList.remove("fa-sun");
         color_scheme.classList.add("fa-moon");
     }else{
         document.body.className = "light-mode";
+
+        const elements = document.querySelectorAll('.dark-mode');
+        elements.forEach(element => {
+            element.classList.remove('dark-mode');
+            element.classList.add('light-mode');
+        });
+
         color_scheme.classList.remove("fa-moon");
         color_scheme.classList.add("fa-sun");
     }
