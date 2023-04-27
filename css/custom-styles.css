@@ -205,7 +205,7 @@ label.radio:hover {
 .blog-item .img-fluid,
 .carousel img{
   object-fit: cover;
-  aspect-ratio: 5/2;
+  aspect-ratio: 2/1;
 }
 
 .blog-item{
