@@ -159,9 +159,6 @@ label.radio:hover {
   width: 100%;
 }
 
-.contact .info i {
-}
-
 .contact .info h4 {
   padding: 0 0 0 60px;
   margin-bottom: 5px;
@@ -198,9 +195,16 @@ label.radio:hover {
 }
 
 .sector {
-  width: 950px;
+  width: 100%;
   border: 10px solid rgb(202, 186, 4);
   padding: 10px;
-  margin: 10px;
+  text-align: center;
+}
+
+li.active {
+  color: rgb(0,0,0);
+  background-color: rgba(234, 255, 0, 0.1);
+  border-radius: 10px;
+  width: 140px;
   text-align: center;
 }
