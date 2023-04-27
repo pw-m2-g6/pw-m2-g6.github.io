@@ -18,6 +18,8 @@
         <link href="css/custom-styles.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
         <script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
 
     </head>
     <body id="page-top" class="light-mode">
@@ -51,11 +53,11 @@
         <div class="navbar-spacer"></div>
         <!-- Orders-->
         <section class="page-section" id="orders">
-        <form action="https://www.google.com">  
+        <form action="submitcomplete.html"> 
             <div class="container">
                 <div class="text">
                     <h2 class="section-heading text-uppercase">Encomendas</h2>
-                    <h3 class="section-subheading text-muted">Peça aqui a sua encomenda da nossa loja direto para sua casa.</h3>
+                    <h3 class="section-subheading text-muted">Peça aqui a sua encomenda da nossa loja direto para sua casa ou para vir buscar.</h3>
                 </div>
                 
                 <div class="container mt-5 mb-5 d-flex justify-content-center">
@@ -64,11 +66,11 @@
                             <h5 class="card-title mb-3">Formato da Encomenda</h5>
                             <div class="d-flex flex-row">
                                 <label class="radio">   
-                                    <input type="radio" name="add" value="takeaway"> <span> <i class="fa fa-truck"></i> Take Away </span> 
+                                    <input type="radio" name="add" value="takeaway"> <span> <i class="fa fa-truck-fast"></i> Take Away </span> 
                                 </label>
                                 &ensp;
                                 <label class="radio">
-                                    <input type="radio" name="add" value="home"> <span> <i class="fa fa-home"></i> Entrega ao Domícilio </span> 
+                                    <input type="radio" name="add" value="home"> <span> <i class="fa-solid fa-house-user"></i> Entrega ao Domícilio </span> 
                                 </label> 
                             </div>
                             <h6 class="information mt-4">Introduza os seus dados para completar a encomenda:</h6>
@@ -93,7 +95,7 @@
                                         <script>
                                             var input = document.querySelector("#phone");
                                             window.intlTelInput(input, {
-                                                separateDialCode: true,
+                                                separateDialCode: false,
                                                 preferredCountries: ["pt", "gb", "es", "fr"],
                                                 initialCountry:"pt",
                                             });

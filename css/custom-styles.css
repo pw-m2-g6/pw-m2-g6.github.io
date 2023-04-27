@@ -151,8 +151,8 @@ label.radio:hover {
   height: 48px;
   border: 2px solid #eee;
   border-radius: 10px;
-  max-width: 178%;
-  flex:auto;
+  width: 191%;
+  display: flex;
 }
 
 .contact .info {
@@ -198,7 +198,6 @@ label.radio:hover {
 }
 
 .sector {
-  
   width: 950px;
   border: 10px solid rgb(202, 186, 4);
   padding: 10px;
