@@ -181,7 +181,6 @@ label.radio:hover {
 }
 
 .imagebox {
-  background-color: rgba(255,0,0,0.2);
   aspect-ratio: 1;
 }
 
@@ -201,16 +200,30 @@ label.radio:hover {
   text-align: center;
 }
 
-li.active {
-  color: rgb(0,0,0);
-  background-color: rgba(234, 255, 0, 0.1);
-  border-radius: 10px;
-  width: 140px;
-  text-align: center;
-}
-
 .portfolio-item .img-fluid,
 .portfolio-modal .img-fluid{
   object-fit: cover;
   aspect-ratio: 4/3;
 }
+
+.blog-item{
+  background: rgba(164, 164, 164, 0.1);
+}
+
+.blog-item .img-fluid{
+  object-fit: cover;
+}
+
+.blog-item .h4{
+  margin: 0;
+}
+
+.blog-avatar{
+  height: 70px;
+  width: auto;
+  border-radius: 50%;
+
+
+}
+
+
