@@ -208,3 +208,9 @@ li.active {
   width: 140px;
   text-align: center;
 }
+
+.portfolio-item .img-fluid,
+.portfolio-modal .img-fluid{
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
