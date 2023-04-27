@@ -201,17 +201,14 @@ label.radio:hover {
 }
 
 .portfolio-item .img-fluid,
-.portfolio-modal .img-fluid{
+.portfolio-modal .img-fluid,
+.blog-item .img-fluid{
   object-fit: cover;
   aspect-ratio: 4/3;
 }
 
 .blog-item{
   background: rgba(164, 164, 164, 0.1);
-}
-
-.blog-item .img-fluid{
-  object-fit: cover;
 }
 
 .blog-item .h4{
