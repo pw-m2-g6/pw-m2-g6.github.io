@@ -66,29 +66,9 @@ subpage-template.html<!DOCTYPE html>
                         <a class="nav-link" href="#category3">Categoria 3</a>
                       </li>
                     </ul>
-                    
-                    <script>
-                      // get all the list items
-                      var items = document.getElementsByTagName("li");
-                      
-                      // add event listener to each item
-                      for (var i = 0; i < items.length; i++) {
-                        items[i].addEventListener("click", function() {
-                          // remove active class from all items
-                          for (var j = 0; j < items.length; j++) {
-                            items[j].classList.remove("active");
-                          }
-                          // add active class to the clicked item
-                          this.classList.add("active");
-                        });
-                      }
-                    </script>
-
-
                 </div>
 
               <div class="col-md-9" style="margin-left: 350px; margin-top: 150px;">
-                
                 <h5 style="text-align: center">Imagens</h5>
                 </br>
                 <h6 class="sector" id="category1">Categoria 1</h6>

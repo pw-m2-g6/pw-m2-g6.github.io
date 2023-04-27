@@ -48,3 +48,14 @@ function OnInput() {
   this.style.height = 0;
   this.style.height = (this.scrollHeight) + "px";
 }
+
+// Seleção da categoria da página Galeria
+var items = document.getElementsByTagName("li");
+for (var i = 0; i < items.length; i++) {
+    items[i].addEventListener("click", function() {
+        for (var j = 0; j < items.length; j++) {
+        items[j].classList.remove("active");
+        }
+        this.classList.add("active");
+    });
+}
