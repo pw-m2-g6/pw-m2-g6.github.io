@@ -221,3 +221,51 @@ label.radio:hover {
   width: auto;
   border-radius: 50%;
 }
+
+.parallax {
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-parallax {
+  align-items: center;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  text-align: center justify;
+}
+
+.parallax-text {
+  width: 100%; /* Can be in percentage also. */
+  height: auto;
+  margin: 0 auto;
+  padding: 14%;
+  position: relative;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+.titulo {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.subtitulo {
+  font-size: 2.2rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
