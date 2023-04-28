@@ -269,17 +269,19 @@ label.radio:hover {
 }
 
 
-
-
 .parallax {
-  /* Full height */
   height: 100%; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*Disable parallax effect on mobiles due to bugs*/
+@media only screen and (max-width:749px) {
+  .parallax {
+    background-attachment: inherit;
+  }
 }
 
 .container-parallax {
@@ -294,7 +296,7 @@ label.radio:hover {
   width: 100%; /* Can be in percentage also. */
   height: auto;
   margin: 0 auto;
-  padding: 15%;
+  padding: 16%;
   position: relative;
   text-align: center;
   display: block;
