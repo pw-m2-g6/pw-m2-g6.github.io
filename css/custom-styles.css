@@ -213,7 +213,8 @@ label.radio:hover {
   aspect-ratio: 2/1;
 }
 
-.blog-item{
+.blog-item,
+.side-bar{
   background: rgba(164, 164, 164, 0.1);
 }
 
