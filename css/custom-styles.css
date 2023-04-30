@@ -7,14 +7,18 @@ body {
   color: #f1f1f1;
 }
 
-.dark-mode .dropdown-item {
+.dropdown-menu {
+  background-color: #2c3034;
+}
+
+.dropdown-item {
   color: #f1f1f1;
 }
 
-.dark-mode .dropdown-item:hover {
+.dropdown-item:hover {
+  color: #f1f1f1;
   background-color: rgba(105, 105, 105, 0.2) !important;
 }
-
 
 section:nth-child(even) {
   background-color: rgba(105, 105, 105, 0.05);
@@ -38,7 +42,7 @@ section:nth-child(even) {
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  display: block !important;
 }
 
 #about p{
