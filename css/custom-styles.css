@@ -328,6 +328,9 @@ label.radio:hover {
   color:black;
 }
 
-.img-fluid{
-  height:75%;
+#about p{
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.5
 }
