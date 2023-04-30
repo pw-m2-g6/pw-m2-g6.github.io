@@ -20,20 +20,19 @@ section:nth-child(even) {
   color: #ffc800;
 }
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-.dropdown:focus {
-  display: blocK;
-}
-
 .text-justify {
   text-align: justify;
 }
 
 #about img {
   border-radius: 50%;
+}
+
+#about p{
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.5
 }
 
 #testimonials img {
@@ -326,11 +325,4 @@ label.radio:hover {
 
 .produtos{
   color:black;
-}
-
-#about p{
-  text-indent: 1em;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  line-height: 1.5
 }
