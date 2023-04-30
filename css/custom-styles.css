@@ -312,3 +312,7 @@ label.radio:hover {
 .produtos{
   color:black;
 }
+
+.image-news .img-fluid {
+  height: 400px;
+}
