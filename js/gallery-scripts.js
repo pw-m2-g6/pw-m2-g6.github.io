@@ -1,3 +1,5 @@
+// loading process of the pictures to the gallery carousels
+
 const names = ['pao','salgados', 'doces', 'biscoitos','compotas_manteigas','veggiecinios'];
 const num_imgs = [27, 19, 69, 5, 2, 11];
 
@@ -14,5 +16,3 @@ for(let j = 0; j < 6; j++){
         carousel.appendChild(div);
     }
 }
-
-

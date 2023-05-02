@@ -1,3 +1,4 @@
+//control of the dark mode features off the website pages
 function toggle_light_mode(){
     let color_scheme = document.getElementById("color-scheme");
 
@@ -35,27 +36,4 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     setTimeout(function() {
         document.body.style.transitionDuration = temp;
     }, 10);
-}
-
-// Auto-resize da input textbox de texto
-const tx = document.getElementsByTagName("textarea");
-for (let i = 0; i < tx.length; i++) {
-  tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
-  tx[i].addEventListener("input", OnInput, false);
-}
-
-function OnInput() {
-  this.style.height = 0;
-  this.style.height = (this.scrollHeight) + "px";
-}
-
-// Seleção da categoria da página Galeria
-var items = document.getElementsByTagName("li");
-for (var i = 0; i < items.length; i++) {
-    items[i].addEventListener("click", function() {
-        for (var j = 0; j < items.length; j++) {
-        items[j].classList.remove("active");
-        }
-        this.classList.add("active");
-    });
 }
