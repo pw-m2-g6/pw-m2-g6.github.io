@@ -123,6 +123,26 @@ section:nth-child(even) {
     border-radius: 50%;
 }
 
+/* Gallery styling */
+
+.categorias a{
+    margin: 5px;
+}
+
+.categorias a.active {
+    background-color: #ffc800;
+    padding-top: 9px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 4px;
+}
+
+.categorias  a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 4px;
+}
+
 /* Misc */
 
 .navbar-spacer {
@@ -135,20 +155,4 @@ section:nth-child(even) {
 .carousel img {
     object-fit: cover;
     aspect-ratio: 2/1;
-}
-
-.categorias ul li a.active {
-    background-color: #be9e00;
-    padding-top: 9px;
-    margin-left: 5px;
-    color: white;
-    border-radius: 4px;
-}
-
-.categorias ul li a:hover:not(.active) {
-    background-color: #555;
-    padding-top: 9px;
-    margin-left: 5px;
-    color: white;
-    border-radius: 4px;
 }
