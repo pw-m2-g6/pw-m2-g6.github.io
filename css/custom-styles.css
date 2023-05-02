@@ -136,3 +136,17 @@ section:nth-child(even) {
     object-fit: cover;
     aspect-ratio: 2/1;
 }
+
+.categorias ul li a.active {
+    background-color: #d2af00;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 0s !important;
+}
+
+.categorias ul li a:hover:not(.active) {
+    background-color: #555;
+    border-radius: 10px;
+    color: white;
+    transition-duration: 0s !important;
+}
