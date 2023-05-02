@@ -37,3 +37,13 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
         document.body.style.transitionDuration = temp;
     }, 10);
 }
+
+var links = document.querySelectorAll('.categorias ul li a');
+links.forEach(function (element) {
+  element.addEventListener('click', function () {
+    links.forEach(function (element) {
+      element.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
