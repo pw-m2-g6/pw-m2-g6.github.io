@@ -40,8 +40,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
 
 var links = document.querySelectorAll('.categorias ul li a');
 links.forEach(function (element) {
-  element.addEventListener('click', function (e) {
-    e.preventDefault();
+  element.addEventListener('click', function () {
     links.forEach(function (element) {
       element.classList.remove('active');
     });

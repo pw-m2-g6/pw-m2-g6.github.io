@@ -138,15 +138,17 @@ section:nth-child(even) {
 }
 
 .categorias ul li a.active {
-    background-color: #d2af00;
-    border-radius: 10px;
+    background-color: #be9e00;
+    padding-top: 9px;
+    margin-left: 5px;
     color: white;
-    transition-duration: 0s !important;
+    border-radius: 4px;
 }
 
 .categorias ul li a:hover:not(.active) {
     background-color: #555;
-    border-radius: 10px;
+    padding-top: 9px;
+    margin-left: 5px;
     color: white;
-    transition-duration: 0s !important;
+    border-radius: 4px;
 }
