@@ -17,6 +17,7 @@ body {
 .icon {
     color: #ffffff;
     padding: 8px 0;
+    width: 16px;
 }
 
 .icon:hover {
