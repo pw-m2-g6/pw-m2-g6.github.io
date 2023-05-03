@@ -5786,7 +5786,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
-  border: 4.5px solid black;
+  border: 5px solid black;
   box-shadow: 10px 5px 10px 1px rgba(10, 10, 10, 0.4);
   border-radius: 7px;
 }
